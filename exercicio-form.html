@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 3 filed set cada um input e um radio button-->
+  <form action="receive-form.php" method="post">
+    <fieldset>
+      <legend>Section 1</legend>
+
+      <br>
+      <br>
+      <label>Primeiro nome</label>
+      <br>
+      <input type="text" name="primeiro-nome">
+      <br>
+      <br>
+      <label>Radio button</label>
+      <br>
+      <input type="radio" name="radio-input1" value="value1" checked>Value 1
+      <br>
+      <input type="radio" name="radio-input1" value="value2">Value 2
+    </fieldset>
+
+    <fieldset>
+      <legend>Section 2</legend>
+
+      <br>
+      <br>
+      <label>Ultimo nome</label>
+      <br>
+      <input type="text" name="ultimo-nome">
+      <br>
+      <br>
+      <label>Radio button</label>
+      <br>
+      <input type="radio" name="radio-input2" value="value1" checked>Value 1
+      <br>
+      <input type="radio" name="radio-input2" value="value2">Value 2
+    </fieldset>
+    
+    
+    <fieldset>
+      <legend>Section 3</legend>
+
+      <br>
+      <br>
+      <label>Como achou o quiz?</label>
+      <br>
+      <input type="text" name="found-quiz">
+      <br>
+      <br>
+      <label>Radio button</label>
+      <br>
+      <input type="radio" name="radio-input3" value="value1" checked>Value 1
+      <br>
+      <input type="radio" name="radio-input3" value="value2">Value 2
+    </fieldset>
+    
+    <!-- Cada pergunta tem 4 opções são 5 perguntas-->
+      <!-- Question 1 -->
+      <br>
+      <br>
+      <br>
+      <label>1. Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?</label>
+      <br>
+      <input type="radio" name="question1" value="question1a">a) Tem entre 2 a 4 litros. São retirados 450 mililitros
+      <br>
+      <input type="radio" name="question1" value="question1b">b) Tem entre 4 a 6 litros. São retirados 450 mililitros
+      <br>
+      <input type="radio" name="question1" value="question1c">c) Tem 10 litros. São retirados 2 litros
+      <br>
+      <input type="radio" name="question1" value="question1d">d) Tem 7 litros. São retirados 1,5 litros
+      <br>
+      <input type="radio" name="question1" value="question1e">e) Tem 0,5 litros. São retirados 0,5 litros
+
+      <!-- Question 2-->
+      <br>
+      <br>
+      <br>
+      <label>2. De quem é a famosa frase “Penso, logo existo”?</label>
+      <br>
+      <input type="radio" name="question2" value="question2a">a) Platão
+      <br>
+      <input type="radio" name="question2" value="question2b">b) Galileu Galilei
+      <br>
+      <input type="radio" name="question2" value="question2c">c) Descartes
+      <br>
+      <input type="radio" name="question2" value="question2d">d) Sócrates
+      <br>
+      <input type="radio" name="question2" value="question2e">e) Francis Bacon
+      
+      <!-- Question 3-->
+      <br>
+      <br>
+      <br>
+      <label>3. De onde é a invenção do chuveiro elétrico?</label>
+      <br>
+      <input type="radio" name="question3" value="question3a">a) França
+      <br>
+      <input type="radio" name="question3" value="question3b">b) Inglaterra
+      <br>
+      <input type="radio" name="question3" value="question3c">c) Brasil
+      <br>
+      <input type="radio" name="question3" value="question3d">d) Australia
+      <br>
+      <input type="radio" name="question3" value="question3e">e) Itália
+      
+      <!-- Question 4 -->
+      <br>
+      <br>
+      <br>
+      <label>4. Quais o menor e o maior país do mundo?</label>
+      <br>
+      <input type="radio" name="question4" value="question4a">a) Vaticano e Rússia
+      <br>
+      <input type="radio" name="question4" value="question4b">b) Nauru e China
+      <br>
+      <input type="radio" name="question4" value="question4c">c) Monaco e Canada
+      <br>
+      <input type="radio" name="question4" value="question4d">d) Malta e Estados Unidos
+      <br>
+      <input type="radio" name="question4" value="question4e">e) São Marino e Índia
+     
+      <!-- Question 5 -->
+      <br>
+      <br>
+      <br>
+      <label>5. Qual o nome do presidente do Brasil que ficou conhecido como Jango?</label>
+      <br>
+      <input type="radio" name="question5" value="question5a">a) Jânio Quadros
+      <br>
+      <input type="radio" name="question5" value="question5b">b) Getúlio Vargas
+      <br>
+      <input type="radio" name="question5" value="question5c">c) João Goulart
+      <br>
+      <input type="radio" name="question5" value="question5d">d) João Figueiredo
+      <br>
+      <input type="radio" name="question5" value="question5e">b) Jacinto Anjos
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <button 
+      style="padding: 15px; 
+             border-radius: 10px; 
+             color: #fff; 
+             background-color: black; 
+             width: 100px; 
+             margin-top: 10px; 
+             border: 0; 
+             font-size: 18px;" 
+      type="submit">
+        Send
+    </button>
+  </form>
+</body>
+</html>
